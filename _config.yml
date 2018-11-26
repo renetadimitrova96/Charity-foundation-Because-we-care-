@@ -1,0 +1,25 @@
+
+title: Charity foundation - "Because we care"
+email: sunshine_171@abv.bg
+description: >-
+This is a charity foundation "Because we care".
+baseurl:  
+url: 
+github_username: renetadimitrova96
+
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
