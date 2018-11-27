@@ -71,3 +71,12 @@ aside input[type=submit]{
     cursor: pointer;
 	float:right;
 }
+#initiave1{
+    border-top:2px solid blue;
+}
+#title1{
+   margin:0;
+   padding:0;
+    
+
+}
