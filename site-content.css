@@ -74,9 +74,32 @@ aside input[type=submit]{
 #initiave1{
     border-top:2px solid blue;
 }
-#title1{
-   margin:0;
-   padding:0;
-    
-
+.listing{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+.listing li{
+    display:block;
+    list-style:none outside;
+    flex: 0 0 31%;
+}
+.listing a{
+    display:block;
+    background:#000;
+    border-radius:0,3em;
+    color:#333;
+    text-decoration:none;
+    box-shadow: 0 0 1rem 0 rgba(0 0 0 0.2);
+}
+.listing a span{
+    display:block;
+}
+.listing a title{
+    font-weight:bold;
+}
+.listing a:hover{
+    background:#333;
+    color:#FFF;
 }
