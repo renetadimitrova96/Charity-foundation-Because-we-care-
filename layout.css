@@ -9,7 +9,9 @@ body{
     max-width:60rem;
     margin: 0 auto;
 }
-
+body.joinus{
+    background:red;
+}
 
 
 
