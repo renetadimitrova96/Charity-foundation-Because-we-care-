@@ -20,7 +20,7 @@ input[type=submit]{
     cursor: pointer;
 	float:right;
 }
-div.gallery {
+/*div.gallery {
 	padding:10px;
     margin-top: 15px;
 	margin-left:20px;
@@ -46,14 +46,14 @@ div.desc {
     text-align: center;
 	height:150px;
 	width:auto;
-}
+}*/
 
 #home{
 	height:330px;
 	width:450px;
 	float:center;
 	padding:0;
-	margin-left:150px;
+	margin-left:200px;
 }
 aside input[type=text], input[type=date], select {
     width: 50%;
@@ -102,4 +102,11 @@ aside input[type=submit]{
 .listing a:hover{
     background:#333;
     color:#FFF;
+}
+.site-content{
+    margin-top:141px;
+}
+#text1{
+    text-indent:50px;
+    text-align:justify;
 }

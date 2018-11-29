@@ -1,0 +1,28 @@
+ul.gallery{
+    padding:0;
+    margin:0;
+    display:grid;
+    grid-gap:0.5rem;
+    grid-template-columns:repeat(2, 1fr);
+
+    li{
+      position:relative;
+      padding-top:100%;
+      overflow:hidden;
+    }
+
+    a{
+        display:block;
+        position:absolute;
+        top:0; left:0;
+        width:100%;
+    }
+
+    img{
+        display: block;
+        width:100%;
+        height:auto;
+        position:absolute;
+        top:0; left:0;
+    }
+}
