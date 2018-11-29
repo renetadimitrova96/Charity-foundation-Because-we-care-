@@ -4,10 +4,10 @@ body{
 }
 .site{
     padding:var(--spacing-size,2em);
-}
-.site-content{
+
+    @at-root #{&}-content{
     max-width:60rem;
-    margin: 0 auto;
+    margin: 0 auto;}
 }
 
 

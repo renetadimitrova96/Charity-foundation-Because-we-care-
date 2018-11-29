@@ -1,0 +1,36 @@
+$bthColors:(
+    "lilac":#D6A2E8,
+    "purple":#82589F,
+    "peach":#FD7272,
+    "pink":#FC427B
+
+);
+
+@function btn-text-color($bgColor){
+    @if (lightness($bgColor)>50){
+        @return #000;
+    }
+    @else{
+        @return #fff;
+    }
+}
+
+.button{
+        display:inline-block;
+        padding:1em 1.5em;
+        border-radius:0.3rem;
+        font-weight:bold;
+        margin:0 2rem 2rem 0;
+        background:#EEE;
+        text-decoration:none;
+        border:2px solid #FFF;
+        color:#333;
+        box-shadow: 0 0 1rem 0 rgba(black, 0.2);
+}
+@each $name, $color in $btnColors{
+     .button.#{$name}{
+         background:$color;
+         color:btn-text-color($color);
+
+     }
+}
