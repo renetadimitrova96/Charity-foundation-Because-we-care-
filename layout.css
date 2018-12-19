@@ -1,0 +1,15 @@
+body{
+    color:var(--color-text-main,blue);
+    padding-top:10rem;
+}
+.site{
+    padding:var(--spacing-size,2em);
+}
+.site-content{
+    max-width:60rem;
+    margin: 0 auto;
+}
+
+
+
+
