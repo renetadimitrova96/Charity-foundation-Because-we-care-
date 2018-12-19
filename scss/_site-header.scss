@@ -5,11 +5,18 @@ body{
 
 
 .site-header{
-    background: linear-gradient(#7B9AFF,#D6DFFF);
+    background: linear-gradient(to bottom, rgba(blue,1) 60%,rgba(white,0) 100%);
     position: fixed;
     top:0; left:0;
     width:100%;
     padding:var(--spacing-site);  
+}
+.site-branding{
+    background:blue !important;
+    @include mq(tablet,max){
+        background:red !important;
+    }
+
 }
 .site-branding{
     display:flex;
